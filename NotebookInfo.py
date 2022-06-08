@@ -13,19 +13,19 @@ class NotebookInfo(object):
 
     def un_notebook(self):
         print(f"""Ноутбук производства {self.Manufacturer} {self.Model} с характеристиками: 
-                    *Диагональ экрана: {self.Screensize}
-                    *Процессор: {self.CPU}
-                    *Кол-во оперативной памяти: {self.Memory}
-                    *Кол-во памяти : {self.Storage} 
+                    |Диагональ экрана: {self.Screensize}
+                    |Процессор: {self.CPU}
+                    |Кол-во оперативной памяти: {self.Memory}
+                    |Кол-во памяти : {self.Storage} 
 относится к бюджетной или бизнес линейки ноутбуков""")
 
 
     def notebook(self, section, type):
         print(f"""Ноутбук производства {self.Manufacturer} {section} {self.Model} относится к {type} серии с характеристиками: 
-            *Диагональ экрана: {self.Screensize}
-            *Процессор: {self.CPU}
-            *Кол-во оперативной памяти: {self.Memory}
-            *Кол-во памяти : {self.Storage} """)
+            |Диагональ экрана: {self.Screensize}
+            |Процессор: {self.CPU}
+            |Кол-во оперативной памяти: {self.Memory}
+            |Кол-во памяти : {self.Storage} """)
 
 
     def get_info(self):
